@@ -1,0 +1,27 @@
+{
+  "name": "counter-flux",
+  "version": "1.0.0",
+  "description": "A very basic example of how to use flux with no particular framework",
+  "main": "server.js",
+  "scripts": {
+    "start": "watchify -o bundle.js -v -d app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexnm/counter-flux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexnm/counter-flux/issues"
+  },
+  "homepage": "https://github.com/alexnm/counter-flux#readme",
+  "dependencies": {
+    "events": "^1.1.0",
+    "flux": "^2.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "watchify": "^3.7.0"
+  }
+}
